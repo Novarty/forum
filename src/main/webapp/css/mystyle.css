@@ -1,0 +1,65 @@
+.message{
+    background: lightgrey;
+}
+.pndef{
+    border: none;
+}
+.menu {
+    list-style: none;
+}
+.menu-rigth{
+    list-style: none;
+    float: right;
+    background: whitesmoke;
+    color: whitesmoke;
+}
+.menu li {
+    float: left;
+    margin-right: 15px;
+}
+.menu2{
+    list-style: none;
+}
+.menu2 li {
+    float: left;
+}
+.ico{
+    margin-left: 40px;
+}
+.mybreadcrumb {
+    list-style: none;
+}
+
+.mybreadcrumb li {
+    float: left;
+}
+
+.mybreadcrumb li:after {
+    display: inline;
+    content: '>';
+    margin: 0 5px;
+}
+
+.mybreadcrumb li:last-child:after {
+    display: none;
+}
+.c1{
+    /*margin-left: 15px;*/
+    /*margin-right: 15px;*/
+    margin: 0 15px 15px 15px;
+}
+.answers{
+    float: right;
+    margin-right: 15px;
+    /*margin-bottom: 10px;*/
+}
+.error{
+    color: red;
+}
+.topicLink{
+    size: 16px;
+    text-decoration: underline;
+}
+.success {
+    color: green;
+}
